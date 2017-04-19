@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^rspec})
   gem.require_paths = ['lib']
 
-  gem.add_dependency 'carrierwave'
-  gem.add_dependency 'azure'
+  gem.add_dependency 'carrierwave', "0.10.0"
+  gem.add_dependency 'azure', "0.7.7"
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'rspec', '~> 3'
